@@ -5,7 +5,7 @@ module.exports = {
 	module: {
 		rules: [
 			{
-				text: /\.js$/,
+				test: /\.js$/,
 				exclude: /node_modules/,
 				loader: 'babel-loader'
 			},
